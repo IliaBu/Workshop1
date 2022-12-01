@@ -11,9 +11,6 @@ Console.Write("Введите третье число: ");
 double number3 = Convert.ToDouble(Console.ReadLine());
 double max = number1;
 
-if (number1 > max) {
-    max = number1;
-}
 if (number2 > max) {
     max = number2;
 }
